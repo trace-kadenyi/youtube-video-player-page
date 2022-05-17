@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.videos {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 7rem;
+    background-color: aliceblue;
+   
+    
+}
+.thumbnails img {
+    width: 170px;
+    height: 110px;
+    margin-bottom: 0.5rem;
+}
+.thumbnails {
+    margin-left: 2rem;
+}
+.newVid a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+}
+.text {
+    margin-left: 0.5rem;
+    margin-top: -2.5rem;  
+}
+.text h3 {
+    margin-bottom: 1rem;
+    color: black;
+}
+.text p {
+    color: gray;
+}
