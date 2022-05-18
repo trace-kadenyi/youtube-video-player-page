@@ -3,14 +3,95 @@
     <head>
         <meta charset="UTF-8">
         <title>Youtube Video Player</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
-        <h1>Youtube Video Player</h1>
+        <section class="navbar">
+            <div class="logo">
+                <div class="menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>            
+                <h1><span style="color: red;">Edu</span>Tube</h1>
+            </div>
+            <div class="search">
+                <form>
+                    <label for="search">Search</label>
+                    <input 
+                        type="text"
+                        name="search"
+                        id="search"
+                        placeholder="Search"    
+                    />
+                </form>
+                <button class="first"><i class="fas fa-search"></i></button>
+                <button class="second"><i class="fas fa-microphone"></i></button>
+            </div>     
+            <nav>
+               <ul>
+                   <li><a href="#"><i class="far fa-calendar-plus"></i></a></li>
+                   <li><a href="#"><i class="fab fa-app-store"></i></a></li>
+                   <li><a href="#"><i class="far fa-bell"></i></a></li>
+                   <li><a href="#"><i class="far fa-user-circle"></i></a></li>
+               </ul>
+
+            </nav>
+        </section>
+        
         <section class="videos">
-            <div>
+            <div class="main_vid">
                 <iframe width="650" height="375" src="https://www.youtube.com/embed/RVFAyFWO4go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>           
+                <h1>React Full Course For Beginners</h1>
+                <div class="user">
+                    <p class="views">20,789,039 views . May 18, 2022</p>
+                    <button><i class="far fa-thumbs-up"></i>  LIKE</button>
+                    <button><i class="far fa-thumbs-down"></i>  DISLIKE</button>
+                    <button><i class="fas fa-share"></i>  SHARE</button>
+                    <button><i class="fas fa-cut"></i>  SNIP</button>
+                    <button><i class="fas fa-plus-square"></i>  SAVE</button>
+                    <button>  . . .</button>                   
+                </div>            
+                <hr style="color: gray;">    
+                <section class="freecodecamp">
+                    <div class="info">
+                        <a href="#">
+                            <img src="images/freecodecamp.webp" alt="freecodecamplogo" />
+                        </a>
+                        <div class="link">
+                            <a href="#"><h4>freeCodeCamp.org</h4></a>
+                            <p>5.59M subscribers</p>
+                        </div>
+                    </div>
+                    <div class="invite">
+                        <button class="join">JOIN</button>
+                        <button class="subscribe">SUBSCRIBE</button>
+                    </div>                    
+                </section>
+                <div class="summary">
+                    <p>This React JS Full Course for Beginners is an all-in-one beginner tutorial and complete course <br> full of nearly 9 hours of React JS code and instruction to level up your programming skills. <br>This course teaches modern React with functional components and hooks.</p> 
+                    <a href="#"><p class="more">SHOW MORE</p></a>
+                </div>
+               <hr>
+
+               <div>
+                   <div class="comments">
+                       <p>542 Comments</p>
+                       <button><i class="fas fa-sort-amount-up"></i> SORT BY</button>
+                   </div>
+                   <div class="users">
+                        <i class="far fa-user-circle"></i>
+                        <input 
+                        type="text"
+                        placeholder="Add a comment"
+                        id="user-comment"
+                        />
+                   </div>
+                   
+               </div>
+            </div> 
+                     
             <section class="thumbnails">
                 <div class="newVid">
                     <a href="https://youtu.be/pQN-pnXPaVg" target="_blank">
